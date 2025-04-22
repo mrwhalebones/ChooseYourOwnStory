@@ -69,9 +69,10 @@ def run_story(user_name):
 
 This structure ensures continuity, allowing each module to feel connected but independent.
 
-I’ll format this into a structured teaching guide that can serve as a printable resource. It will include: ✅ Lesson Objectives – What learners will gain from building this project ✅ Step-by-Step Instructions – Clear explanations for each part of the interactive story ✅ Code Examples – With annotations for easy understanding ✅ Exercises & Challenges – Activities to reinforce learning
 🔹 Step 5: Testing and Refining
 
 Encourage students to stress-test their program: ✅ Does every choice transition correctly? ✅ Does invalid input trigger a helpful error message? ✅ Do loopbacks return to the correct part of the story?
 
 By following this template, learners gain insight into structured storytelling in programming while keeping the experience fun and interactive!
+
+I’ll format this into a structured teaching guide that can serve as a printable resource. It will include: ✅ Lesson Objectives – What learners will gain from building this project ✅ Step-by-Step Instructions – Clear explanations for each part of the interactive story ✅ Code Examples – With annotations for easy understanding ✅ Exercises & Challenges – Activities to reinforce learning
