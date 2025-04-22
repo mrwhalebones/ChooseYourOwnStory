@@ -21,28 +21,28 @@ CYSP2.run_story(user_name)  # Transfers control to the next script
 
 Students start by coding the first chapter, where they introduce choices and allow user interaction. Example:
 
-def get_user_choice(options):
-    """
-    Presents a list of choices and records the user's response.
-    Keeps prompting until a correct input is received.
-    """
-    while True:
-        print("\nWhat do you do next?")
-        for i, option in enumerate(options, 1):
-            print(f"{i}. {option}")
+#def get_user_choice(options):
+#    """
+#    Presents a list of choices and records the user's response.
+#    Keeps prompting until a correct input is received.
+#    """
+#    while True:
+#        print("\nWhat do you do next?")
+#        for i, option in enumerate(options, 1):
+#            print(f"{i}. {option}")
 
-        user_input = input("Enter the number of your choice: ").strip()
+#        user_input = input("Enter the number of your choice: ").strip()
 
-        if not user_input.isdigit():
-            print("\nThat is not a choice you get to make right now. Try again.")
-            continue  
+#        if not user_input.isdigit():
+#            print("\nThat is not a choice you get to make right now. Try again.")
+#            continue  
 
-        choice = int(user_input)
+#        choice = int(user_input)
 
-        if 1 <= choice <= len(options):
-            return options[choice - 1]  
-        else:
-            print("\nThat is not a choice you get to make right now. Try again.")
+#        if 1 <= choice <= len(options):
+#            return options[choice - 1]  
+#        else:
+#            print("\nThat is not a choice you get to make right now. Try again.")
 
 🔹 Step 3: Introducing Loopbacks
 
